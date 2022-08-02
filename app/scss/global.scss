@@ -1,0 +1,39 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    // Общепринятые правила для скрола на мелких экаранах 
+    overflow-x: hidden;
+    min-width: 320px;
+    font-family: 'Oswald-Regular', sans-serif;
+    font-weight: 400;
+    
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.container {
+    max-width: 90%;
+    padding: 0 15px;
+    margin: 0 auto;
+}

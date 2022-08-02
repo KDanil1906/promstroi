@@ -1,0 +1,54 @@
+$yellow: #fcbf04;
+// $yellow: #fcbf04;
+$ligth-yellow: #ffd24a;
+$blue: #075d91;
+$title-text: #444;
+$small-text: #555555;
+
+@mixin f300 {
+    font-family: 'Oswald-Light', sans-serif;
+    font-weight: 300;
+}
+
+@mixin f400 {
+    font-family: 'Oswald-Regular', sans-serif;
+    font-weight: 400;
+}
+
+@mixin f500 {
+    font-family: 'Oswald-Medium', sans-serif;
+    font-weight: 500;
+}
+
+@mixin f700 {
+    font-family: 'Oswald-Bold', sans-serif;
+    font-weight: 700;
+}
+
+@keyframes mouse_move {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes mouse_cyrcle_move {
+    from {
+        transform: scale(1.3);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
